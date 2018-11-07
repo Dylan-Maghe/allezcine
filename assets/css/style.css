@@ -113,3 +113,75 @@
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98); }
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
+  .navigation .red {
+    color: red; }
+  .navigation .white {
+    color: white; }
+  .navigation h1 {
+    font-size: 3rem;
+    margin-right: 50px; }
+  .navigation .redBtn {
+    background-color: red; }
+  .navigation .greyBtn {
+    background-color: gray; }
+  .navigation a {
+    margin: 10px; }
+  .navigation .form-control {
+    background-color: black;
+    border-radius: 90px; }
+
+.jumbotron {
+  height: 500px;
+  margin: 0;
+  padding: 0; }
+  .jumbotron img {
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%); }
+
+.carousel-item {
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.493); }
+
+.darker {
+  background-color: rgba(0, 0, 0, 0.493); }
+
+.logbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red; }
+  .logbar .tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .logbar .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 5%; }
+    .logbar .btn .logbtn {
+      background-color: black;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      border: 0px;
+      margin: 5px;
+      color: white;
+      height: 75%;
+      -ms-flex-line-pack: center;
+      align-content: center; }
+
+.debug {
+  border: black solid 3px; }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Allez Ciné</title>
+</head>
+
+<body>
+    <!--dylan-->
+    <div class="bg-modal-cookies">
+        <div class="modal-content-cookies">
+            <h2>Cookies</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptas veniam quod quidem optio distinctio
+                ipsa fugit officia, enim praesentium harum vel temporibus ipsum earum alias culpa eos placeat eius.</p>
+            <button class="button" id="accept" onclick="acceptCookies()">Accepter</button>
+            <button class="button" id="refuse" onclick="refuseCookies()">Refuser</button>
+        </div>
+    </div>
+    <button id="login" onclick="openLoginFormulary()">Test</button>
+    <button id="register" onclick="openRegisterFormulary()">Test2</button>
+    <div class="bg-modal-login">
+        <div class="modal-content">
+            <div>
+                <div class="input-content">
+                    <input class="input" type="text" placeholder="Identifiant">
+                    <input class="input" type="text" placeholder="Mot de passe">
+                </div>
+                <div class="button-content">
+                    <button href="#" class="button">OK</button>
+                    <button class="button" onclick="openRegisterFormulary()">Créer un compte</button>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="stayconnect" name="resterconnecte">
+                    <label for="stayconnect">Rester connecté</label>
+                </div>
+                <div class="link">
+                    <a class="link" href="#">Mot de passe oublié</a>
+                    <a class="link" onclick="closeLoginFormulary()" href="#">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-modal-register">
+        <div class="modal-content">
+            <div>
+                <div class="input-content">
+                    <input class="input" type="text" placeholder="Nom">
+                    <input class="input" type="text" placeholder="E-mail">
+                    <input class="input" type="text" placeholder="Password">
+                    <input class="input" type="text" placeholder="Confirm password">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="stayconnect" name="resterconnecte">
+                    <label for="stayconnect">Accepter les conditions générales d'utilisation</label>
+                </div>
+                <div class="button-content">
+                    <button class="button" onclick="closeRegisterFormulary()">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
