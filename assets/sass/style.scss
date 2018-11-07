@@ -1,0 +1,45 @@
+.navigation{
+    position: absolute;
+    width:100%;
+    z-index: 1;
+    .red {
+        color:red;
+    }
+    .white{
+        color: white;
+    }
+    h1{
+        font-size:3rem;
+        margin-right: 50px;
+    }
+
+    .redBtn{
+        background-color: red;
+    }
+    .greyBtn{
+        background-color: gray; 
+    }
+    a{
+        margin:10px;
+    }
+    .form-control{
+        background-color: black;
+        border-radius: 90px;
+    }
+}    
+.jumbotron{
+    height: 500px;
+    margin:0;
+    padding:0;
+    img{
+        filter: brightness(50%);
+    }
+    
+}
+.carousel-item{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.darker{
+    background-color: rgba(0, 0, 0, 0.493);
+}
