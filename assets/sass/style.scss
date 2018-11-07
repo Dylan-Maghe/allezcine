@@ -114,9 +114,11 @@
 
     .redBtn{
         background-color: red;
+        border-radius:5px;
     }
     .greyBtn{
         background-color: gray; 
+        border-radius:5px;
     }
     a{
         margin:10px;
@@ -127,46 +129,52 @@
     }
 }    
 .jumbotron{
-    height: 500px;
     margin:0;
     padding:0;
     img{
-        filter: brightness(50%);
+        filter: brightness(75%);
     }
     
 }
+
 .carousel-item{
-    height: 500px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.493);
 }
+
 .darker{
     background-color: rgba(0, 0, 0, 0.493);
 }
-
-.logbar{
-    display:flex;
-    background-color: red;
-    .tel{
+.redbg{
+    background-color:red;
+    .content{
+        margin-left:40px;
         display: flex;
-        align-content: center;
-        justify-content: center
-    }
-    .btn{
-        display: flex;
-        justify-content: center;
-        margin-left: 5%;
-        .logbtn{
-            background-color: black;
-            justify-content: space-around;
-            border:0px;
-            margin:5px;
-            color:white;
-            height: 75%;
-            align-content: center;
+        flex-wrap: wrap;
+        .tel{
+            display:flex;
+            align-items: center;
+            justify-content: center;
         }
-    }
+        .btn{
+            display:flex;
+            .logbtn{
+                background-color:black;
+                color:white;
+                padding:5px;
+                margin:3px;
+                border-radius: 5px;
+            }
+        }
+    } 
 }
-
 .debug{
     border:black solid 3px;
+    margin:10px;
+}
+
+@media only screen and (min-width:576px){
+    .carousel-item{
+        height: 500px;
+    }
 }
