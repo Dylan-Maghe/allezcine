@@ -39,4 +39,4 @@ let closeLoginFormulary = () => { // fonction qui ferme le formulaire login
 }
 
 allowEntry();
-//home/user/Desktop/becode_projects/allezcine/index.html*/
+//home/user/Desktop/becode_projects/allezcine/index.html
