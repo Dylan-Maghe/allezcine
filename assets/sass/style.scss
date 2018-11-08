@@ -1,3 +1,4 @@
+$cinered : #FE4240;
 //dylan
 .bg-modal-login {
     width: 100%;
@@ -102,7 +103,7 @@
     width:100%;
     z-index: 1;
     .red {
-        color:red;
+        color:$cinered;
     }
     .white{
         color: white;
@@ -113,7 +114,7 @@
     }
 
     .redBtn{
-        background-color: red;
+        background-color: $cinered;
         border-radius:5px;
     }
     .greyBtn{
@@ -146,7 +147,7 @@
     background-color: rgba(0, 0, 0, 0.493);
 }
 .redbg{
-    background-color:red;
+    background-color:$cinered;
     .content{
         margin-left:40px;
         display: flex;

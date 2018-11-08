@@ -119,14 +119,14 @@
   width: 100%;
   z-index: 1; }
   .navigation .red {
-    color: red; }
+    color: #FE4240; }
   .navigation .white {
     color: white; }
   .navigation h1 {
     font-size: 3rem;
     margin-right: 50px; }
   .navigation .redBtn {
-    background-color: red;
+    background-color: #FE4240;
     border-radius: 5px; }
   .navigation .greyBtn {
     background-color: gray;
@@ -152,7 +152,7 @@
   background-color: rgba(0, 0, 0, 0.493); }
 
 .redbg {
-  background-color: red; }
+  background-color: #FE4240; }
   .redbg .content {
     margin-left: 40px;
     display: -webkit-box;
