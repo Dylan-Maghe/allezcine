@@ -14,9 +14,9 @@ let userEmail = document.querySelector("#user-email");
 let userSubject = document.querySelector("#user-subject");
 let userMessage = document.querySelector("#user-message");
 
+
 let allowEntry = () => { // fonction qui autorise l'accès au site si l'utilisateur a +18ans
     age = prompt("Entrez votre âge SVP");
-    console.log(age);
     if (age < 18 || age == null) {
         document.location.replace("https://www.imdb.com/"); // redirige l'utilisateur vers ce site si il a moins de 18ans
     }
