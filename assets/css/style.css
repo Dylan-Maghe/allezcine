@@ -1,4 +1,3 @@
-
 /*footer*/
 .noir {
   background-color: black; }
@@ -106,7 +105,7 @@ ul li a:hover {
 .fa-facebook-f:hover {
   background-color: white;
   color: black; }
-=======
+
 .bg-modal-login {
   width: 100%;
   height: 100%;
@@ -454,6 +453,29 @@ td {
   border: black solid 3px;
   margin: 10px; }
 
+button.btn {
+  width: 30%;
+  height: 45px;
+  border-radius: 0px; }
+
+.promise {
+  color: #999; }
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.sub-btn {
+  margin-left: 5px; }
+
+.sub-input {
+  height: 45px;
+  border-radius: 0px; }
+
 @media only screen and (min-width: 576px) {
   .carousel-item {
-    height: 500px;
+    height: 500px; } }
