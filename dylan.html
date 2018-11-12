@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+=======
+>>>>>>> refs/remotes/origin/master
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -18,18 +23,106 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+    <!-- BOUTONS RESEAUX SOCIAUX -->
+
+    <ul class="test">
+        <li class="list-social-network"><button type="button" class="btn btn-success" id="btn-twitter">
+                Twitter <span class="fab fa-twitter social-network"></span>
+            </button>
+        </li>
+        <li class="list-social-network"><button type="button" class="btn btn-success" id="btn-facebook">
+                Facebook <span class="fab fa-facebook-f social-network"></span>
+            </button>
+        </li>
+        <li class="list-social-network"><button type="button" class="btn btn-success" id="btn-instagram">
+                Instagram <span class="fab fa-instagram social-network"></span>
+            </button>
+        </li>
+        <li class="list-social-network"><button type="button" class="btn btn-success" id="btn-google">
+                Google + <span class="fab fa-google-plus social-network"></span>
+            </button>
+        </li>
+    </ul>
+    <!-- SECTION CONTACT US -->
+    <h2 class="contact">CONTACT US</h2>
+    <div class="contact-formulary">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="FIRST NAME" id="firstname">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="LAST NAME" id="lastname">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="EMAIL" id="email">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="SUBJECT" id="subject">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <textarea class="form-control" placeholder="YOUR MESSAGE" id="message"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-danger" id="contact-button" onclick="contactFormulary()">OPEN</button>
+        <button type="button" class="btn btn-danger send-message" onclick="openUserContact()" disabled>SEND MESSAGE</button>
+    </div>
+    <div class="bg-modal-contact">
+        <div class="modal-content">
+            <div class="table-content">
+                <table>
+                    <tr>
+                        <td id="user-firstname"></td>
+                        <td id="user-lastname"></td>
+                    </tr>
+                    <tr>
+                        <td id="user-email"></td>
+                        <td id="user-subject"></td>
+                    </tr>
+                </table>
+                <div id="user-message-content">
+                    <p id="user-message"></p>
+                </div>
+                <div class="button-content">
+                    <button href="#" class="button" onclick="closeUserContact()">Cancel</button>
+                    <button class="button" onclick="closeUserContact()">Confirmer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COOKIES -->
+    <div class="bg-modal-cookies">
+        <div class="modal-content-cookies">
+            <h2>Cookies</h2>
+            <p>En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de Cookies ou autres
+                traceurs pour vous proposer Par exemple, des publicités ciblées adaptés à vos centres d’intérêts et
+                Par exemple, réaliser des statistiques de visites.</p>
+=======
     <!--dylan-->
     <div class="bg-modal-cookies">
         <div class="modal-content-cookies">
             <h2>Cookies</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptas veniam quod quidem optio distinctio
                 ipsa fugit officia, enim praesentium harum vel temporibus ipsum earum alias culpa eos placeat eius.</p>
+>>>>>>> refs/remotes/origin/master
             <button class="button" id="accept" onclick="acceptCookies()">Accepter</button>
             <button class="button" id="refuse" onclick="refuseCookies()">Refuser</button>
         </div>
     </div>
+<<<<<<< HEAD
+    <!-- FORMULAIRES LOGIN ET REGISTER-->
+=======
     <button id="login" onclick="openLoginFormulary()">Test</button>
     <button id="register" onclick="openRegisterFormulary()">Test2</button>
+>>>>>>> refs/remotes/origin/master
     <div class="bg-modal-login">
         <div class="modal-content">
             <div>
