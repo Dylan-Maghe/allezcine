@@ -229,13 +229,13 @@ $cinered : #FE4240;
     transform: scale(0.98); }
   
 //valentin
+.red {
+    color:$cinered;
+}
 .navigation{
     position: absolute;
     width:100%;
     z-index: 1;
-    .red {
-        color:$cinered;
-    }
     .white{
         color: white;
     }
@@ -299,6 +299,29 @@ $cinered : #FE4240;
             }
         }
     } 
+}
+.arrow{
+    display:flex; 
+    flex-wrap:wrap;
+    align-content: right;
+}
+.arrowBtn{
+    background-color: black;
+    color:white;
+    height: 20px;
+    width:20px;
+    margin:1px;
+}
+.presentation{
+    background-color: black;
+    padding:10px;
+    color:white;
+    width:auto;
+}
+
+.shopMovie{
+    margin:0;
+    padding:15px;
 }
 .debug{
     border:black solid 3px;
