@@ -1,4 +1,4 @@
-$main-color: #801515;
+$main-color: #FE4240;
 $second-color: #550000;
 $white-color: #FFE8E8;
 
@@ -10,6 +10,10 @@ $white-color: #FFE8E8;
     transform: translateX(-100px);
 }
 
+.btn-primary {
+    background-color: $main-color !important;
+}
+
 .card {
     border: none!important;
     display: flex;
@@ -19,6 +23,7 @@ $white-color: #FFE8E8;
         font-size: 16px;
     }
 }
+
 
 .section-film {
     border: 1px solid rgba(128, 128, 128, 0.3);
@@ -54,10 +59,10 @@ $white-color: #FFE8E8;
             bottom: 16px;
         }
         .genre {
-            right: 2px;
+            right: 5px;
         }
         .annee {
-            left: 2px;
+            left: 5px;
         }
     }
 }
@@ -79,5 +84,6 @@ $white-color: #FFE8E8;
             width: 80%;
             height: inherit;
         }
-    }
+}
+
 }

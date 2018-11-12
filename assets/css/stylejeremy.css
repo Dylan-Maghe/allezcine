@@ -1,10 +1,13 @@
 .secondTitle {
   padding: 4px 0 4px 16px;
-  border-left: 5px solid #801515;
+  border-left: 5px solid #FE4240;
   margin: 10px 0;
   -webkit-transform: translateX(-100px);
   -ms-transform: translateX(-100px);
   transform: translateX(-100px); }
+
+.btn-primary {
+  background-color: #FE4240 !important; }
 
 .card {
   border: none !important;
@@ -32,7 +35,7 @@
     border: none; }
   .section-film .gender .active,
   .section-features .gender .active {
-    background: #801515;
+    background: #FE4240;
     color: #FFE8E8; }
   .section-film img,
   .section-features img {
@@ -51,10 +54,10 @@
       bottom: 16px; }
     .section-film .card-body .genre,
     .section-features .card-body .genre {
-      right: 2px; }
+      right: 5px; }
     .section-film .card-body .annee,
     .section-features .card-body .annee {
-      left: 2px; }
+      left: 5px; }
 
 @media screen and (max-width: 992px) {
   .social-link {
