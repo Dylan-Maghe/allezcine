@@ -1,7 +1,7 @@
 
 /*footer*/
 .noir{
-  background-color: black
+  background-color: black;
 }
 
 @media(min-width: 768px){
@@ -16,7 +16,7 @@
   }
   
   footer{
-  background-color: #0d0d0d;
+  background-color: black;
   color: #a3a49e;
   width: 100%;
   right: 0;
@@ -134,7 +134,7 @@ $cinered : #FE4240;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: center;
@@ -146,7 +146,7 @@ $cinered : #FE4240;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ $cinered : #FE4240;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: center;
@@ -485,6 +485,10 @@ button.btn {
     .sub-input {
     height: 45px;
     border-radius: 0px;
+    }
+
+    .input-group {
+        margin-bottom: 10px;
     }
 
 @media only screen and (min-width:576px){
