@@ -611,3 +611,18 @@ button.btn {
   -ms-transform: translate(85px);
   transform: translate(85px);
   z-index: 5 !important; }
+
+nav .search {
+  background-color: black;
+  width: 200px;
+  border-radius: 25px;
+  margin: 0;
+  padding: 0; }
+  nav .search input {
+    background-color: black;
+    color: white;
+    border: 0px;
+    width: 75%;
+    padding-left: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; }
